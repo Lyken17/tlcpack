@@ -19,7 +19,6 @@ jobs:
         pkg: ['tlcpack', 'tlcpack-nightly']
 
     runs-on: ${{ matrix.os }}
-
     steps:
     - uses: actions/checkout@v2
     - uses: actions/cache@v1
